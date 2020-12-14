@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>publishing company</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Use Flexbox
+      Use meaningful class names
+      Read BEM methodology -->
+      <div class="d-flex header__s1">
+        <div class="header__icons">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-dribbble" aria-hidden="true"></i>
+        </div>
+
+        <div class="header__text">
+          <h1>Publishing <span class="color_orange"> Company</span></h1>
+          <p>Book Publishing Company</p>
+        </div>
+
+        <!-- search
+          search__input::focus
+          search__button -->
+
+        <form>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" />
+            <div class="input-group-btn">
+              <button type="submit" class="btn btn-default">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!--second navbar-->
+      <nav class="navbar navbar-expand-md">
+        <button
+          class="navbar-toggler custom-toggler"
+          data-toggle="collapse"
+          data-target="#collapse-target"
+        >
+          <span class="navbar-toggler-icon" id="menu__display "></span>
+          MENU
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapse-target">
+          <ul id="header__menu" class="navbar-nav m-auto">
+            <li class="nav-item active mr-4">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a href="comingsoon.html" class="nav-link">Coming Soon</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a href="topseller.html" class="nav-link">Top Seller</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a href="books.html" class="nav-link">Books</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a href="author.html" class="nav-link">Author</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <!--1st section-->
+      <section class="section1">
+        <div
+          class="container section1__text"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="color_black">
+            <p>Good books don't give up all their secrets at once</p>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </div>
+          <div class="d-flex section1__button">
+            <button
+              type="button"
+              class="btn text-bold bg_blue color_white m-2 px-4 py-3"
+            >
+              View All Books
+            </button>
+            <button
+              type="button"
+              class="btn text-bold bg_white color_black m-2 px-4 py-3"
+            >
+              Explore Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--2nd section-->
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <section class="section2">
+          <div class="container">
+            <div class="card-group">
+              <div class="card col-md-3 col-sm-12">
+                <div class="card-body">
+                  <div class="icon__card">
+                    <i class="flaticon-horse"></i>
+                    <div class="round__div"></div>
+                  </div>
+                  <h5 class="card-title">Children's Book</h5>
+
+                  <p class="card-text color_dark_grey">
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+              <div class="card col-md-3 col-sm-12">
+                <div class="card-body">
+                  <div class="icon__card">
+                    <div class="round__div"></div>
+                    <i class="flaticon-house"></i>
+                  </div>
+                  <h5 class="card-title">Romance</h5>
+                  <p class="card-text color_dark_grey">
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+              <div class="card col-md-3 col-sm-12">
+                <div class="card-body">
+                  <div class="icon__card">
+                    <div class="round__div"></div>
+                    <i class="flaticon-love"></i>
+                  </div>
+                  <h5 class="card-title">Art & Architecture</h5>
+                  <p class="card-text color_dark_grey">
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+              <div class="card col-md-3 col-sm-12">
+                <div class="card-body">
+                  <div class="icon__card">
+                    <div class="round__div"></div>
+                    <i class="flaticon-history"></i>
+                  </div>
+                  <h5 class="card-title">History</h5>
+                  <p class="card-text color_dark_grey">
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--3rd section-->
+      <section class="s3 text-align-center">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-3 col-sm-12"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+            >
+              <p class="counter">
+                75,678
+              </p>
+              <p>
+                Active Readers
+              </p>
+            </div>
+            <div
+              class="col-md-3 col-sm-12"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+            >
+              <p class="counter">
+                3,040
+              </p>
+              <p>
+                Total Pages
+              </p>
+            </div>
+            <div
+              class="col-md-3 col-sm-12"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+            >
+              <p class="counter">
+                283
+              </p>
+              <p>
+                Cup Of Coffee
+              </p>
+            </div>
+            <div
+              class="col-md-3 col-sm-12"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+            >
+              <p class="counter">
+                14,500
+              </p>
+              <p>
+                Facebook Fans
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--4th section-->
+      <div class="container my-5 d-flex s4">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-none d-sm-block">
+            <img src="./img/s4.webp" />
+          </div>
+          <div
+            class="col-md-6 col-sm-12 s4__second__col"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <p>Welcome To Publishing Company</p>
+            <p>
+              Publishing Company Created By Authors
+            </p>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </p>
+            <p>
+              On her way she met a copy. The copy warned the Little Blind Text,
+              that where it came from it would have been rewritten a thousand
+              times and everything that was left from its origin would be the
+              word "and" and the Little Blind Text should turn around and return
+              to its own, safe country.
+            </p>
+            <button type="button" class="btn text-bold bg_blue color_white">
+              View All Our Authors
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--5th section-->
+      <section class="s5">
+        <div class="s7__header" data-aos="fade-up" data-aos-duration="1000">
+          <p>Books</p>
+          <p>New Release</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="col-md-6 col-12 s5__image">
+              <img src="./img/s5first.webp" />
+
+              <div class="s5__icons">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to cart"
+                >
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i></a
+                ><br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to Wishlist"
+                >
+                  <i class="fa fa-heart" aria-hidden="true"></i
+                ></a>
+
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Quick View"
+                >
+                  <i class="fa fa-search" aria-hidden="true"></i
+                ></a>
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Compare"
+                >
+                  <i class="fa fa-eye" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 s5__text">
+              <p class="color_orange">$12.00</p>
+              <p>
+                You Are Your Only Limit
+              </p>
+              <p>By John Nathan Muller</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="col-md-6 col-12 s5__image">
+              <img src="./img/s5second.webp" />
+              <div class="s5__icons">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to cart"
+                >
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i></a
+                ><br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to Wishlist"
+                >
+                  <i class="fa fa-heart" aria-hidden="true"></i
+                ></a>
+
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Quick View"
+                >
+                  <i class="fa fa-search" aria-hidden="true"></i
+                ></a>
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Compare"
+                >
+                  <i class="fa fa-eye" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 s5__text">
+              <p>
+                <span class="color_dark_grey">$12.00 </span
+                ><span class="color_orange"> $8.00</span>
+              </p>
+              <p>101 Essays That Will Change The Way Your <br />Thinks</p>
+              <p>By John Nathan Mulle</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="col-md-6 col-12 s5__image">
+              <img src="./img/s5third.webp" />
+              <div class="s5__icons">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to cart"
+                >
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i></a
+                ><br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to Wishlist"
+                >
+                  <i class="fa fa-heart" aria-hidden="true"></i
+                ></a>
+
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Quick View"
+                >
+                  <i class="fa fa-search" aria-hidden="true"></i
+                ></a>
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Compare"
+                >
+                  <i class="fa fa-eye" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 s5__text">
+              <p class="color_orange">$12.00</p>
+              <p>Your Soul Is A River</p>
+              <p>By John Nathan Muller</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4 col-12">
+            <div class="col-md-6 col-12 s5__text">
+              <p class="color_orange">$9.00</p>
+              <p>
+                All The Letters I Should Have<br />
+                Sent
+              </p>
+              <p>By John Nathan Muller</p>
+            </div>
+            <div class="col-md-6 col-12 s5__image">
+              <img src="./img/s5fourth.jpg" />
+              <div class="s5__icons">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to cart"
+                >
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i></a
+                ><br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to Wishlist"
+                >
+                  <i class="fa fa-heart" aria-hidden="true"></i
+                ></a>
+
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Quick View"
+                >
+                  <i class="fa fa-search" aria-hidden="true"></i
+                ></a>
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Compare"
+                >
+                  <i class="fa fa-eye" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="col-md-6 col-12 s5__text">
+              <p class="color_orange">$20.00</p>
+              <p>Happy</p>
+              <p>By John Nathan Muller</p>
+            </div>
+            <div class="col-md-6 col-12 s5__image">
+              <img src="./img/s5fifth.webp" />
+              <div class="s5__icons">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to cart"
+                >
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i></a
+                ><br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to Wishlist"
+                >
+                  <i class="fa fa-heart" aria-hidden="true"></i
+                ></a>
+
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Quick View"
+                >
+                  <i class="fa fa-search" aria-hidden="true"></i
+                ></a>
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Compare"
+                >
+                  <i class="fa fa-eye" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="col-md-6 col-12 s5__text">
+              <p class="color_orange">$12.00</p>
+              <p>Milk & Honey</p>
+              <p>By John Nathan Muller</p>
+            </div>
+            <div class="col-md-6 col-12 s5__image">
+              <img src="./img/s5sixth.webp" />
+              <div class="s5__icons">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to cart"
+                >
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i></a
+                ><br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Add to Wishlist"
+                >
+                  <i class="fa fa-heart" aria-hidden="true"></i
+                ></a>
+
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Quick View"
+                >
+                  <i class="fa fa-search" aria-hidden="true"></i
+                ></a>
+                <br />
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Compare"
+                >
+                  <i class="fa fa-eye" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--6th section-->
+      <section class="section6">
+        <div class="image__container">
+          <div class="overlay">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+              <div class="section6__text">
+                <p>Testimonial</p>
+                <p>Kind Words From Clients</p>
+              </div>
+              <div id="slidercards">
+                <div class="autoplay mr-3" id="slider">
+                  <div class="card shadow testimonial__card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <br />
+
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts.
+                      </p>
+                      <div class="d-flex">
+                        <div class="w-50%">
+                          <img src="./img/s6first.jpg" />
+                        </div>
+                        <div class="w-50% author__details">
+                          <p>Roger Scott</p>
+                          <p>Marketing Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card shadow testimonial__card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <br />
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts.
+                      </p>
+                      <div class="d-flex">
+                        <div class="w-50%">
+                          <img src="./img/s6second.webp" />
+                        </div>
+                        <div class="w-50% author__details">
+                          <p>Roger Scott</p>
+                          <p>Marketing Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card testimonial__card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <br />
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts.
+                      </p>
+                      <div class="d-flex">
+                        <div class="w-50%">
+                          <img src="./img/s6fourth.jpg" />
+                        </div>
+                        <div class="w-50% author__details">
+                          <p>Roger Scott</p>
+                          <p>Marketing Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card testimonial__card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <br />
+
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts.
+                      </p>
+                      <div class="d-flex">
+                        <div class="w-50%">
+                          <img src="./img/s6fifth.jpg" />
+                        </div>
+                        <div class="w-50% author__details">
+                          <p>Roger Scott</p>
+                          <p>Marketing Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card testimonial__card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <br />
+
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts.
+                      </p>
+                      <div class="d-flex">
+                        <div class="w-50%">
+                          <img src="./img/s6second.webp" />
+                        </div>
+                        <div class="w-50% author__details">
+                          <p>Roger Scott</p>
+                          <p>Marketing Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card testimonial__card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <br />
+
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts.
+                      </p>
+                      <div class="d-flex">
+                        <div class="w-50%">
+                          <img src="./img/s6fourth.jpg" />
+                        </div>
+                        <div class="w-50% author__details">
+                          <p>Roger Scott</p>
+                          <p>Marketing Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--7th section-->
+      <div class="container mb-5 s7">
+        <div class="s7__header" data-aos="fade-up" data-aos-duration="1000">
+          <p>BLOG</p>
+          <p>Recent Blog</p>
+        </div>
+        <div class="card-group" data-aos="fade-in" data-aos-duration="1000">
+          <div class="card mr-4">
+            <img src="./img/s7first.jpg" class="card-img-top" alt="..." />
+            <div class="numberCircle">
+              <p>02</p>
+              <p>MAY</p>
+              <p>2020</p>
+            </div>
+            <div class="card-body text-align-center">
+              <h5 class="card-title mt-5">New Friends With Books</h5>
+              <p class="card-text">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+            </div>
+          </div>
+          <div class="card mr-4">
+            <img src="./img/s7second.jpg" class="card-img-top" alt="..." />
+            <div class="numberCircle">
+              <p>02</p>
+              <p>MAY</p>
+              <p>2020</p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title mt-5">New Friends With Books</h5>
+              <p class="card-text">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/s7third.webp" class="card-img-top" alt="..." />
+            <div class="numberCircle">
+              <p>02</p>
+              <p>MAY</p>
+              <p>2020</p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title mt-5">New Friends With Books</h5>
+              <p class="card-text">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer">
+      <!-- use container-fluid for both sections
+      use color components - text & bg-color to be used separately -->
+      <!--first part-->
+      <section class="footer__first d-flex">
+        <div class="container justify-content-center">
+          <div class="row">
+            <div class="footer__column col-md-3 col-sm-12 footer__social_icon">
+              <h4>Connect</h4>
+              <p class="color_light_grey">
+                Far far away, behind the <br />word mountains, far from<br />
+                the countries.
+              </p>
+              <br />
+              <div data-aos="fade-up" data-aos-duration="1000">
+                <i class="fa fa-twitter mr-2" aria-hidden="true"></i>
+                <i class="fa fa-facebook mr-2" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="footer__column col-md-2 col-sm-12">
+              <h4>Extra Links</h4>
+              <ul class="color_light_grey">
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Affiliate Program
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Business Services
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Education Services
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Gift Cards
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__column col-md-2 col-sm-12">
+              <h4>Legal</h4>
+
+              <ul class="color_light_grey">
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Join us
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Blog
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Privacy & Policy
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Term & Conditions
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column col-md-2 col-sm-12">
+              <h4>Company</h4>
+
+              <ul class="color_light_grey">
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  About Us
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  Blog
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  contact
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  careers
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__column col-md-3 col-sm-12">
+              <h4>Have a Questions?</h4>
+              <table cl>
+                <tbody>
+                  <tr>
+                    <td class="align-top pb-3">
+                      <i class="fa fa-map-o mr-3" aria-hidden="true"></i>
+                    </td>
+                    <td class="color_light_grey pb-3">
+                      203 Fake St. Mountain <br />View, San Francisco,<br />
+                      California, USA
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><i class="fa fa-phone pb-3" aria-hidden="true"></i></td>
+                    <td class="color_light_grey pb-3">+2 392 3929 210</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <i class="fa fa-paper-plane pb-3" aria-hidden="true"></i>
+                    </td>
+                    <td class="color_light_grey pb-3">
+                      info@yourdomain.com
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--second part-->
+      <section class="footer__second bg_black p-5">
+        <div class="container color_light_grey">
+          Copyright &copy; <span id="year"></span> All rights reserved | This
+          template is made with
+          <i class="fa fa-heart" aria-hidden="true"></i>
+          by <span class="color_white">Colorlib.com</span>
+        </div>
+      </section>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+      //get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+    <script>
+      AOS.init();
+    </script>
+    <!--tooltip-->
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $(".autoplay").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+          arrows: false,
+          responsive: [
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+
+    <!--counter-->
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

@@ -1,3 +1,4 @@
+
 import { CountUp } from "./node_modules/countup.js/dist/countUp.js";
 
 window.onload = function () {
@@ -9,13 +10,7 @@ window.onload = function () {
   $(".counter").map((element) => {
     var countUp = new CountUp($(".counter")[element], meh[element]);
     countUp.start();
-   
+
     console.log(element);
-   
   });
 };
-
-
-
-
-
